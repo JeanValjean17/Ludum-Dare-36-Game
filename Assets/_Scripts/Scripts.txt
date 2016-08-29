@@ -1,0 +1,91 @@
+Spawner
+using UnityEngine;
+using System.Collections;
+
+public class Spawner : MonoBehaviour {
+
+    public GameObject obj;
+    // Use this for initialization
+    void Start()
+    {
+        Spawn();
+    }
+
+
+    void Spawn()
+    {
+        Instantiate(obj, transform.position, Quaternion.identity);
+        Invoke("Spawn", 0.6f);
+    }
+
+}
+
+
+
+playerController
+
+using UnityEngine;
+using System.Collections;
+
+public class playerController : MonoBehaviour {
+
+    private Animator animator;
+    private Rigidbody2D rigidBody;
+
+	// Use this for initialization
+	void Start ()
+    {
+        animator = this.GetComponent<Animator>();
+        rigidBody = this.GetComponent<Rigidbody2D>();
+        animator.SetBool("isMoving", false);
+
+    }
+	
+	// Update is called once per frame
+	void Update ()
+    {
+        float horizontal = 1; //Input.GetAxis("Horizontal");
+
+        if(Input.GetButtonDown("Jump"))
+        {
+            rigidBody.AddForce(new Vector2(0f, 660f));
+        }
+
+
+        if (horizontal > 0)
+        {
+            animator.SetBool("isMoving", true);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
+    }
+}
+
+
+floorController
+
+using UnityEngine;
+using System.Collections;
+
+public class floorController : MonoBehaviour
+{
+
+    private Transform floorTransform;
+
+    // Use this for initialization
+    void Start()
+    {
+        floorTransform = this.GetComponent<Transform>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector3 movement = new Vector3(-5f, 0.0f, 0.0f);
+
+        floorTransform.position += movement * Time.deltaTime;
+
+    }
+}

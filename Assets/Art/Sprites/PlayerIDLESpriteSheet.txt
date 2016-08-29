@@ -1,0 +1,16 @@
+spr_mc_idle_0 = 0 0 64 64
+spr_mc_idle_1 = 69 0 64 64
+spr_mc_idle_10 = 138 0 64 64
+spr_mc_idle_11 = 0 69 64 64
+spr_mc_idle_12 = 69 69 64 64
+spr_mc_idle_13 = 0 138 64 64
+spr_mc_idle_14 = 69 138 64 64
+spr_mc_idle_15 = 138 69 64 64
+spr_mc_idle_2 = 138 138 64 64
+spr_mc_idle_3 = 207 0 64 64
+spr_mc_idle_4 = 207 69 64 64
+spr_mc_idle_5 = 276 0 64 64
+spr_mc_idle_6 = 207 138 64 64
+spr_mc_idle_7 = 276 69 64 64
+spr_mc_idle_8 = 345 0 64 64
+spr_mc_idle_9 = 414 0 64 64

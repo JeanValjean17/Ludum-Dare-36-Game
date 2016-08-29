@@ -1,0 +1,31 @@
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics (ID=0x102)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.210 seconds
+desktop: 1600x1200 60Hz; virtual: 1600x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\DOCUMENTOS_Y_D+\My Unity Projects\PrototypeInfiniteRunnerRepo\RunnerPrototype_Data\Managed\System.dll (this message is harmless)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 106.947350 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 442.
+Total: 3.247527 ms (FindLiveObjects: 0.036710 ms CreateObjectMapping: 0.015789 ms MarkObjects: 3.180816 ms  DeleteObjects: 0.011052 ms)
+
