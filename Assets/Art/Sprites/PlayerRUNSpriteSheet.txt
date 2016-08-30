@@ -1,9 +1,0 @@
-spr_mc_run_0 = 0 0 64 64
-spr_mc_run_1 = 69 0 64 64
-spr_mc_run_2 = 138 0 64 64
-spr_mc_run_3 = 0 69 64 64
-spr_mc_run_4 = 69 69 64 64
-spr_mc_run_5 = 0 138 64 64
-spr_mc_run_6 = 69 138 64 64
-spr_mc_run_7 = 138 69 64 64
-spr_mc_run_8 = 138 138 64 64
